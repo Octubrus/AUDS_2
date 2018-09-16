@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ClassDataService } from '../class-data.service';
+
 
 @Component({
   selector: 'app-timetable',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimetableComponent implements OnInit {
 
-  constructor() { }
+  classes;
+  constructor(private classDataService: ClassDataService) { }
 
   ngOnInit() {
+    this.classes = this.classDataService.getClasses();
   }
+  
+  // getClasses() {
+  //   this.classes = this.classDataService.getClasses();
+  // }
 
 }

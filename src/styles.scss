@@ -11,3 +11,10 @@
 .golden-background {
   background-color: #f1c445;
 }
+
+.select-wrapper input.select-dropdown, .select-wrapper input.select-dropdown:focus {
+    border-bottom-color: black;
+}
+.dropdown-content li > span {
+    color: inherit;
+}

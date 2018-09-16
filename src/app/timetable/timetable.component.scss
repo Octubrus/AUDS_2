@@ -1,7 +1,13 @@
 #timetableBackground {
-    height: 100vh;
-    background-color: black;
-    background-image: url("/assets/images/timetable.jpg");
-    background-size: cover;
-    text-align: center;
-  }
+  height: 100vh;
+  background-color: black;
+  background-image: url("/assets/images/timetable.jpg");
+  background-size: cover;
+}
+
+#timetable-header {
+    margin: 0px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 3em;
+}
