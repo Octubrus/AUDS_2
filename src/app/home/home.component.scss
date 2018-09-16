@@ -1,0 +1,26 @@
+#heroBackground {
+  height: 100vh;
+  background-color: black;
+  background-image: url("/assets/images/hero.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+#mainHeader {
+  margin-bottom: 0px !important;
+  position: absolute;
+  width: 300px;
+  padding: 3em;
+}
+
+.btn:hover {
+  background-color: #fbc02d;
+}
+
+.btn:focus {
+  background-color: #fbc02d;
+}
+
+.btn {
+  margin-top: 3em;
+}
