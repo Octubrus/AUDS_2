@@ -8,165 +8,228 @@ export class ClassDataService {
   constructor() { }
 
   classes = [{
-    'style': 'Salsa LA',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Advanced',
-    'day': 'Monday',
-    'time': '7pm',
-    'tutors': [{
-      'name': 'Kenneth',
-      'surename': 'Graham'
-    },
-    {
-      'name': 'Kira',
-      'surename': 'Beneke'
-    }
-    ]
+    'style': 'Contemporary',
+    'day': 1,
+    'time': '17:00',
+    'venue': 'MacRobert 614',
+    'level': 0
+  }, {
+    'style': 'Ballet Rep',
+    'day': 2,
+    'time': '17:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
   },
   {
-    'style': 'Salsa LA',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Intermediate',
-    'day': 'Monday',
-    'time': '6pm',
-    'tutors': [{
-      'name': 'Kenneth',
-      'surename': 'Graham'
-    },
-    {
-      'name': 'Kira',
-      'surename': 'Beneke'
-    }
-    ]
+    'style': 'Streetdance',
+    'day': 2,
+    'time': '16:00',
+    'venue': 'Kings Pavillion',
+    'level': 2
   },
   {
-    'style': 'Bachata',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Beginners',
-    'day': 'Tuesday',
-    'time': '6pm',
-    'tutors': [{
-      'name': 'Martyn',
-      'surename': 'Needham'
-    },
-    {
-      'name': 'Letizia',
-      'surename': 'Olivero'
-    }
-    ]
+    'style': 'Salsa',
+    'day': 2,
+    'time': '17:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
   },
   {
-    'style': 'Bachata',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Intermediate',
-    'day': 'Tuesday',
-    'time': '7pm',
-    'tutors': [{
-      'name': 'Martyn',
-      'surename': 'Needham'
-    },
-    {
-      'name': 'Letizia',
-      'surename': 'Olivero'
-    }
-    ]
+    'style': 'Salsa',
+    'day': 2,
+    'time': '18:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
   },
   {
-    'style': 'Tango',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Improvers',
-    'day': 'Saturday',
-    'time': '3pm',
-    'tutors': [{
-      'name': 'Luca',
-      'surename': 'Italianisimo'
-    },
-    {
-      'name': 'Elisabeta',
-      'surename': 'Italianisimo'
-    }
-    ]
+    'style': 'Tap',
+    'day': 2,
+    'time': '17:00',
+    'venue': 'MacRobert 614',
+    'level': 2
   },
   {
-    'style': 'Tango',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Intermediate',
-    'day': 'Saturday',
-    'time': '4pm',
-    'tutors': [{
-      'name': 'Luca',
-      'surename': 'Italianisimo'
-    },
-    {
-      'name': 'Elisabeta',
-      'surename': 'Italianisimo'
-    }
-    ]
+    'style': 'Capoeira',
+    'day': 2,
+    'time': '19:30',
+    'venue': 'ASV Aqua Studio',
+    'level': 0
   },
   {
-    'style': 'Kizomba',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Improvers',
-    'day': 'Thurday',
-    'time': '5pm',
-    'tutors': [{
-      'name': 'Radost',
-      'surename': 'Pencheva'
-    },
-    {
-      'name': 'Janita',
-      'surename': 'Lotz'
-    }
-    ]
+    'style': 'Capoeira',
+    'day': 2,
+    'time': '20:30',
+    'venue': 'ASV Aqua Studio',
+    'level': 0
   },
   {
-    'style': 'Kizomba',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Intermediate',
-    'day': 'Monday',
-    'time': '5pm',
-    'tutors': [{
-      'name': 'Radost',
-      'surename': 'Pencheva'
-    },
-    {
-      'name': 'Janita',
-      'surename': 'Lotz'
-    }
-    ]
+    'style': 'Hip-Hop',
+    'day': 3,
+    'time': '18:00',
+    'venue': 'Kings Pavillion',
+    'level': 1
   },
   {
     'style': 'Zouk',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Beginners',
-    'day': 'Friday',
-    'time': '8pm',
-    'tutors': [{
-      'name': 'Shaun',
-      'surename': 'Londoner'
-    },
-    {
-      'name': 'Vilgaile',
-      'surename': 'Petrikaite'
-    }
-    ]
+    'day': 3,
+    'time': '18:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
   },
   {
-    'style': 'Zouk',
-    'fbLink': 'https://www.facebook.com/groups/177950765595848/',
-    'level': 'Improvers',
-    'day': 'Friday',
-    'time': '9pm',
-    'tutors': [{
-      'name': 'Shaun',
-      'surename': 'Londoner'
-    },
-    {
-      'name': 'Vilgaile',
-      'surename': 'Petrikaite'
-    }
-    ]
-  }
+    'style': 'Ballet',
+    'day': 3,
+    'time': '19:00',
+    'venue': 'Kings Pavillion',
+    'level': 3
+  },
+  {
+    'style': 'Ballet',
+    'day': 3,
+    'time': '20:00',
+    'venue': 'Kings Pavillion',
+    'level': 3
+  },
+  {
+    'style': 'Hip-Hop',
+    'day': 3,
+    'time': '17:00',
+    'venue': 'Kings Pavillion',
+    'level': 3
+  },
+  {
+    'style': 'Heels',
+    'day': 4,
+    'time': '16:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Modern',
+    'day': 4,
+    'time': '17:00',
+    'venue': 'Kings Pavillion',
+    'level': 2
+  },
+  {
+    'style': 'Reggaeton',
+    'day': 4,
+    'time': '18:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Ballet',
+    'day': 4,
+    'time': '16:00',
+    'venue': 'Kings Pavillion',
+    'level': 2
+  },
+  {
+    'style': 'Voguing',
+    'day': 5,
+    'time': '16:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Ballet',
+    'day': 5,
+    'time': '17:00',
+    'venue': 'Kings Pavillion',
+    'level': 1
+  },
+  {
+    'style': 'Broadway',
+    'day': 5,
+    'time': '18:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Highland',
+    'day': 5,
+    'time': '19:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Highland',
+    'day': 5,
+    'time': '20:00',
+    'venue': 'Kings Pavillion',
+    'level': 0
+  },
+  {
+    'style': 'Bellydance',
+    'day': 5,
+    'time': '17:00',
+    'venue': 'MacRobert 613',
+    'level': 0
+  },
+  {
+    'style': 'Kizomba',
+    'day': 5,
+    'time': '18:00',
+    'venue': 'MacRobert 613',
+    'level': 0
+  },
+  {
+    'style': 'Ballroom',
+    'day': 5,
+    'time': '19:00',
+    'venue': 'MacRobert 613',
+    'level': 0
+  },
+  {
+    'style': 'Capoeira',
+    'day': 5,
+    'time': '19:00',
+    'venue': 'ASV Aqua Studio',
+    'level': 0
+  },
+  {
+    'style': 'Capoeira',
+    'day': 5,
+    'time': '20:00',
+    'venue': 'ASV Aqua Studio',
+    'level': 0
+  },
+  {
+    'style': 'Tango',
+    'day': 6,
+    'time': '15:00',
+    'venue': 'MacRobert 614',
+    'level': 0
+  },
+  {
+    'style': 'Breakdance',
+    'day': 6,
+    'time': '16:00',
+    'venue': 'MacRobert 614',
+    'level': 2
+  },
+  {
+    'style': 'Breakdance',
+    'day': 6,
+    'time': '17:00',
+    'venue': 'MacRobert 614',
+    'level': 2
+  },
+  {
+    'style': 'Bachata',
+    'day': 6,
+    'time': '18:00',
+    'venue': 'MacRobert 614',
+    'level': 0
+  },
+  {
+    'style': 'Bachata',
+    'day': 6,
+    'time': '19:00',
+    'venue': 'MacRobert 614',
+    'level': 0
+  },
   ]
 
   getClasses() {

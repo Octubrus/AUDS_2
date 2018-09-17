@@ -4,14 +4,16 @@
     <div class="row ">
       <div class="col m3 l4"></div>
       <div class="input-field col s12 m6 l4">
-        <select>
+        <select class="browser-default"
+          (change)="filterByDay($event)"
+          [(ngModel)]="day">
           <option value="" disabled selected>Select a Day</option>
-          <option value="1">Monday</option>
-          <option value="2">Tuesday</option>
-          <option value="3">Wednesday</option>
-          <option value="4">Thursday</option>
-          <option value="5">Friday</option>
-          <option value="6">Saturday</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
         </select>
         <!-- <label>Select a Day</label> -->
       </div>
@@ -19,12 +21,14 @@
     </div>
 
     <div class="row">
-      <div *ngFor="let class of classes" class="col s6 m4 l3 xl2">
+      <div *ngFor="let class of classesToDisplay" class="col s6 m4 l3 xl2">
         <div class="card grey darken-4">
           <div class="card-content white-text">
             <span class="card-title golden">{{class.style}}</span>
             <p>{{class.day}}</p>
             <p>{{class.time}}</p>
+            <p>{{class.venue}}</p>
+            <p>{{class.level}}</p>
           </div>
           <!-- <div class="card-action">
                 <a href="#">This is a link</a>
@@ -36,3 +40,4 @@
 
   </section>
 </section>
+
