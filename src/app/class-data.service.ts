@@ -23,21 +23,21 @@ export class ClassDataService {
   {
     'style': 'Streetdance',
     'day': 2,
-    'time': '16:00',
+    'time': '18:00',
     'venue': 'Kings Pavillion',
     'level': 2
   },
   {
     'style': 'Salsa',
     'day': 2,
-    'time': '17:00',
+    'time': '19:00',
     'venue': 'Kings Pavillion',
     'level': 0
   },
   {
     'style': 'Salsa',
     'day': 2,
-    'time': '18:00',
+    'time': '20:00',
     'venue': 'Kings Pavillion',
     'level': 0
   },
@@ -65,7 +65,7 @@ export class ClassDataService {
   {
     'style': 'Hip-Hop',
     'day': 3,
-    'time': '18:00',
+    'time': '16:00',
     'venue': 'Kings Pavillion',
     'level': 1
   },
@@ -121,7 +121,7 @@ export class ClassDataService {
   {
     'style': 'Ballet',
     'day': 4,
-    'time': '16:00',
+    'time': '19:00',
     'venue': 'Kings Pavillion',
     'level': 2
   },
